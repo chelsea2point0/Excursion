@@ -20,11 +20,21 @@ html, body {
 
 .main .content {
   position: absolute;
+  color: white;
   top: 200px;
   width: 100%;
   left: 0;
   right: 0;
+  text-align: center;
   margin: 0 auto;
+}
+
+.content button {
+  background-color: #4386FC;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 25px;
 }
 
 .main h1 {
@@ -34,8 +44,10 @@ html, body {
 
 
 .supporting {
+  color: black;
   margin-top: 100px;
   margin-bottom: 130px;
+  text-align: center;
 }
 
 .supporting h2 {
@@ -50,11 +62,25 @@ html, body {
   padding: 0 30px;
 }
 
+.supporting img {
+  padding-top: 80px;
+}
+
+.supporting button {
+  background-color: #4386FC;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 25px;
+}
+
 .feature {
-  height: 500px;
+  height: 600px;
 }
 
 .footer {
+  background-color: #eeeeee;
+  font-size: 12px;
   padding: 30px;
 }
 
